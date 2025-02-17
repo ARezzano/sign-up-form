@@ -1,4 +1,16 @@
 body{
+    margin: 0;
     display: flex;
     flex-direction: row;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+}
+
+.left-container{
+    height: 100%;
+    width: 600px;
+    background-image: url("img/coihue.jpg");
+    background-size: cover;
 }
