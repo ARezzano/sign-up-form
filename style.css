@@ -8,9 +8,37 @@ body{
     height: 100%;
 }
 
+@font-face{
+    font-family: "norse-font";
+    src: url("fonts/Norse-Bold.otf");
+}
+
 .left-container{
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 600px;
     background-image: url("img/coihue.jpg");
     background-size: cover;
+}
+
+.banner{
+    font-family:"norse-font";
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 100px;
+    color: white;
+    background: rgba(20, 39, 20, 0.5)
+}
+
+#odin-logo{
+    height: 100px;
+    width: 90px;
+}
+
+#pic-credits{
+    align-self: center;
 }
