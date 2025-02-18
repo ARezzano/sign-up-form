@@ -72,6 +72,8 @@ input{
     display: flex;
     flex-direction: row;
     gap: 50px;
+    color: rgb(22, 31, 31);
+    font-weight: 400;
 }
 
 .left-forms,.right-forms{
@@ -80,8 +82,8 @@ input{
     width: 250px;
 }
 
-.left-forms >p ,.right-forms > p{
-    margin-top: 30px;
+.left-forms input,.right-forms input{
+    margin-bottom: 15px;
 }
 
 .banner{
