@@ -28,6 +28,14 @@ input{
     padding: 5px;
 }
 
+input:focus{
+    outline: none;
+    border-color: blue;
+}
+
+input:invalid{
+    border-color: red;
+}
 
 .left-container{
     display: flex;
